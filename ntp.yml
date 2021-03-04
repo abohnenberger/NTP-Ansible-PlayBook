@@ -1,5 +1,5 @@
 ---
-hosts: all
+- hosts: all
 sudo: yes
 tasks:
 - name: Ensure NTP (for time synchronization) is installed.
